@@ -8,7 +8,7 @@ All you need to build your own scintillation counter is this board, a scintillat
 
 Hardware design has been done with [EasyEDA](https://easyeda.com/) and all the needed files for you to import the project as well as the schematic can be found in the `hardware` folder. There is also a Gerber file available for you to go directly to the PCB manufacturing step.
 
---> For quick access and purchase of all the parts (PCB and BOM) you can use [Kitspace](https://kitspace.org/boards/github.com/Open-Gamma-Project/Mini-SiD/). In addition, you'll also need to buy a SiPM (e.g. the MICROFC-60035-SMT-TR1) at a distributor of your choice. You'll also need a scintillator crystal of course. The MicroFC SiPM works best with NaI(Tl) scintillators.
+**-->** For quick access and purchase of all the parts (PCB and BOM) you can use [Kitspace](https://kitspace.org/boards/github.com/Open-Gamma-Project/Mini-SiD/). In addition, you'll also need to buy a SiPM (e.g. the MICROFC-60035-SMT-TR1) at a distributor of your choice. You'll also need a scintillator crystal of course. The MicroFC SiPM works best with NaI(Tl) scintillators.
 
 <p align="center">
   <img alt="Front side rendering of the PCB" title="Front side rendering of the PCB" src="docs/pcb_front.png">
