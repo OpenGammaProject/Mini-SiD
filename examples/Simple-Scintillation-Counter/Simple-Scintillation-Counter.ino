@@ -8,6 +8,8 @@
    2022, NuclearPhoenix. Open Gamma Project.
    https://github.com/Open-Gamma-Project/Mini-SiD
 
+   Hackaday: https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
+
 */
 
 #include <Adafruit_SSD1306.h>  // Used for OLEDs
