@@ -2,13 +2,13 @@
 
 __This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.__
 
-Minimalistic board that allows you to quickly and easily utilize a silicon photomultiplier (SiPM) within your other projects. Supports a range of input voltages, has a digital (TTL) pulse output for the registered counts and a direct output for the amplified pulses to include some kind of peak detection for gamma spectroscopy. Somewhat based on the original [Open Gamma Detector](https://github.com/Open-Gamma-Project/Open-Gamma-Detector).
+Minimalistic board that allows you to quickly and easily utilize a silicon photomultiplier (SiPM) within your other projects. Supports a range of input voltages, has a digital (TTL) pulse output for the registered counts and a direct output for the amplified pulses to include some kind of peak detection for gamma spectroscopy. Somewhat based on the original [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector).
 
 All you need to build your own scintillation counter is this board, a scintillator and SiPM. The benefits of such a scintillation counter are that you can use it just like a Geiger counter, but it's much more sensitive, smaller, doesn't need 300+ Volts and you can also use it to do spectroscopy beyond the scope of this board. It only registers gamma radiation though, so keep that in mind!
 
 Hardware design has been done with [EasyEDA](https://easyeda.com/) and all the needed files for you to import the project as well as the schematic can be found in the `hardware` folder. There is also a Gerber file available for you to go directly to the PCB manufacturing step.
 
-**-->** For quick access and purchase of all the parts (PCB and BOM) you can use [Kitspace](https://kitspace.org/boards/github.com/Open-Gamma-Project/Mini-SiD/). In addition, you'll also need to buy a SiPM (e.g. the MICROFC-60035-SMT-TR1) at a distributor of your choice. You'll also need a scintillator crystal of course. The MicroFC SiPM works best with NaI(Tl) scintillators.
+**-->** For quick access and purchase of all the parts (PCB and BOM) you can use [Kitspace](https://kitspace.org/boards/github.com/OpenGammaProject/Mini-SiD/). In addition, you'll also need to buy a SiPM (e.g. the MICROFC-60035-SMT-TR1) at a distributor of your choice. You'll also need a scintillator crystal of course. The MicroFC SiPM works best with NaI(Tl) scintillators.
 
 <p align="center">
   <img alt="Front side rendering of the PCB" title="Front side rendering of the PCB" src="docs/pcb_front.png">
