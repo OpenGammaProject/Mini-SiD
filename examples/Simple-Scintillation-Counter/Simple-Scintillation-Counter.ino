@@ -6,7 +6,7 @@
    Triggers on newly detected pulses and displays average cps values.
 
    2022, NuclearPhoenix. Open Gamma Project.
-   https://github.com/Open-Gamma-Project/Mini-SiD
+   https://github.com/OpenGammaProject/Mini-SiD
 
    Hackaday: https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
 
