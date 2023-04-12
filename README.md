@@ -2,6 +2,8 @@
 
 # Mini SiPM Driver (SiD) Board
 
+**This is the latest hardware revision 3.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 2 and 3 hardware can be found [here](https://hackaday.io/project/188090-mini-sipm-driver-board/log/217563-new-hardware-revision).**
+
 **This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.**
 
 Minimalistic board that allows you to quickly and easily utilize a silicon photomultiplier (SiPM) within your other projects. Supports a range of input voltages, has a digital (TTL) pulse output for the registered counts and a direct output for the SiPM pulses for easy expansion. Similar to the original [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), but without any direct way to perform gamma spectroscopy.
