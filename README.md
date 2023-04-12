@@ -6,6 +6,11 @@
 
 Minimalistic board that allows you to quickly and easily utilize a silicon photomultiplier (SiPM) within your other projects. Supports a range of input voltages, has a digital (TTL) pulse output for the registered counts and a direct output for the SiPM pulses for easy expansion. Similar to the original [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), but without any direct way to perform gamma spectroscopy.
 
+<p align="center">
+  <img alt="Photo of the detector board with mounted SiPM and crystal" title="Photo of the detector board with mounted SiPM and crystal" height="210px" src="docs/img1.jpg">
+  <img alt="Photo of the detector board with mounted SiPM and crystal" title="Photo of the detector board with mounted SiPM and crystal" height="210px" src="docs/img2.jpg">
+</p>
+
 All you need to build your own scintillation counter is this board, a scintillator and SiPM. The benefits of such a scintillation counter are that you can use it just like a Geiger counter, but it's much more sensitive, can be smaller, doesn't need 300+ Volts and you can also use it to do spectroscopy with some additional components. It mostly only registers gamma radiation though, so keep that in mind!
 
 ## How To Get One
@@ -25,12 +30,12 @@ Here are some of the most important key facts:
 * Input voltage: 3.2 V - 5.5 V.
 * Low-voltage device: No HV needed like with a photomultiplier tube.
 * SiPM voltage range from 27.5 V to 33.8 V.
-* Extremely-low power consumption: ~1 mA @ 3.3 V in standard operation.
+* Low power consumption: <5 mA @ 5 V in standard operation.
 * Adjustable gain for the SiPM pulses, also affects pulse decay time and therefore dead time.
 * TTL output for counting pulses or time-over-threshold applications.
 * Additional raw pulse output if you want to manipulate the signal or use it for spectroscopy.
 * Dead time only limited by the speed of the scintillator and the gain. Typically <10 µs.
-* Only needs an additional cheap microcontroller to build a simple scintillation counter for example.
+* Only needs an additional cheap microcontroller to, for example, build a simple scintillation counter.
 
 ## Working Principle
 
@@ -62,11 +67,11 @@ The TTL-compatible `INT` output is an active high pin!
 **Here is a helpful image about the potentiometer settings:**
 
 ![Potentiometer Controls](docs/controls.jpg)
+**TODO: Image will follow soon :)**
 
 ## Example Results
 
 Here is a small collection of example results I got when measuring with my small 18 x 30 mm scintillator and a 6 mm MicroFC SiPM.
-
 
 | Sample | Result Average [cps] |
 | --- | --- |
