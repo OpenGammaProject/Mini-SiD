@@ -5,10 +5,11 @@
 
    Triggers on newly detected pulses and displays average cps values.
 
-   2022, NuclearPhoenix. Open Gamma Project.
+   2023, NuclearPhoenix. Open Gamma Project.
    https://github.com/OpenGammaProject/Mini-SiD
 
-   Hackaday: https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
+   Hackaday:
+   https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
 
 */
 
@@ -16,7 +17,7 @@
 
 const uint8_t INT_PIN = 16;  // Signal interrupt pin
 const uint8_t LED = 25;      // LED on GP25
-const uint16_t RESET = 2;    // Number of seconds after which the OLED stats will be updated
+const uint16_t RESET = 3;    // Number of seconds after which the OLED stats will be updated
 
 const uint8_t SCREEN_WIDTH = 128;     // OLED display width, in pixels
 const uint8_t SCREEN_HEIGHT = 32;     // OLED display height, in pixels
@@ -40,7 +41,7 @@ void setup() {
   pinMode(INT_PIN, INPUT);
   pinMode(LED, OUTPUT);
 
-  attachInterrupt(digitalPinToInterrupt(INT_PIN), eventInt, FALLING);
+  attachInterrupt(digitalPinToInterrupt(INT_PIN), eventInt, RISING);
 }
 
 
@@ -57,10 +58,13 @@ void setup1() {
     display.setTextColor(SSD1306_WHITE);
 
     display.clearDisplay();
-    display.println("Mini SiD Example");
+    display.println("Mini SiD");
+    display.println("Example");
     display.display();
     delay(1000);
   }
+
+  Serial.println("Hello World!");
 }
 
 
