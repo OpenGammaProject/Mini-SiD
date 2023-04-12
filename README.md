@@ -1,3 +1,5 @@
+<a href="https://certification.oshwa.org/at000004.html" title="Open Source Hardware Association Certificate"><img align="right" src="docs/oshw.svg" alt="Open Source Hardware Association Certificate"></a>
+
 # Mini SiPM Driver (SiD) Board
 
 __This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.__
