@@ -67,10 +67,9 @@ The PCB is single-sided and mostly uses 0603 components or comparable IC package
 
 The TTL-compatible `INT` output is an active high pin!
 
-**Here is a helpful image about the potentiometer settings:**
+**Here is a helpful image about the potentiometer settings (turning increases each parameter):**
 
-![Potentiometer Controls](docs/controls.jpg)
-**TODO: Image will follow soon :)**
+![Potentiometer Controls](docs/controls.png)
 
 ## Example Results
 
