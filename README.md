@@ -71,9 +71,17 @@ The TTL-compatible `INT` output is an active high pin!
 
 ![Potentiometer Controls](docs/controls.png)
 
+## Scintillation Counter
+
+A great project utilizing the Mini SiD is building a scintillation counter, which can be much more powerful than a geiger counter while being safer to use, because of the relatively low voltages.
+
+One great example build has been done by [RD-Gamma](https://rd-gammaspectra.xyz), who built one such device using a russian scintillator and a Broadcom AFBR SiPM.
+
+[![Photo of the DIY scintillation counter](docs/example.jpg)](https://rd-gammaspectra.xyz/?p=255)
+
 ## Example Results
 
-Here is a small collection of example results I got when measuring with my small 18 x 30 mm scintillator and a 6 mm MicroFC SiPM.
+Here is a small collection of example results I got when measuring the count rate at the TTL output with my small 18 x 30 mm scintillator and a 6 mm MicroFC SiPM.
 
 | Sample | Result Average [cps] |
 | --- | --- |
