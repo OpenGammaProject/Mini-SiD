@@ -71,6 +71,10 @@ The TTL-compatible `INT` output is an active high pin!
 
 ![Potentiometer Controls](docs/controls.png)
 
+## 3D Model
+
+If you want to design an enclosure for the PCB or you need a 3D model for whatever other reason, you can have a look at the files in the `3D` folder. It includes 3D models of the PCB itself and some of the components on the board.
+
 ## Scintillation Counter
 
 A great project utilizing the Mini SiD is building a scintillation counter, which can be much more powerful than a geiger counter while being safer to use, because of the relatively low voltages.
