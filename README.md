@@ -89,10 +89,11 @@ Here is a small collection of example results I got when measuring the count rat
 
 | Sample | Result Average [cps] |
 | --- | --- |
-| Background | 24 |
-| Ionization Smoke Detector | 230 |
-| Cup with Uraninite glaze | 64 |
-| 5g LYSO scintillator | 34 |
+| Background (no source) | 24 |
+| Am-241 (commonly used in ionization smoke detectors) | 230 |
+| Cup with Uraninite glaze (i.e. containing natural pitchblende) | 64 |
+| 5g LYSO scintillator (containing naturally-occuring Lu-176) | 34 |
+| Thorianite (mineral) | 800 |
 
 ## Some Ideas
 
