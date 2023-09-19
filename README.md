@@ -1,4 +1,4 @@
-<a href="https://certification.oshwa.org/at000006.html" title="Open Source Hardware Association Certificate"><img align="right" src="docs/oshw.svg" alt="Open Source Hardware Association Certificate"></a>
+<a href="https://certification.oshwa.org/at000006.html" title="Open Source Hardware Association Certificate"><img align="right" width="25%" src="docs/oshw.svg" alt="Open Source Hardware Association Certificate"></a>
 
 # Mini SiPM Driver (SiD) Board
 
