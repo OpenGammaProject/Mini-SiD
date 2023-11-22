@@ -1,8 +1,8 @@
-<a href="https://certification.oshwa.org/at000006.html" title="Open Source Hardware Association Certificate"><img align="right" width="25%" src="docs/oshw.svg" alt="Open Source Hardware Association Certificate"></a>
+<a href="https://INSERT.LINK" title="Open Source Hardware Association Certificate"><img align="right" width="25%" src="docs/oshw.svg" alt="Open Source Hardware Association Certificate"></a>
 
 # Mini SiPM Driver (SiD) Board
 
-**This is the latest hardware revision 3.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 2 and 3 hardware can be found [here](https://hackaday.io/project/188090-mini-sipm-driver-board/log/217563-new-hardware-revision).**
+**This is the latest hardware revision 4.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 3 and 4 hardware can be found [TODO](https://INSERT.LINK).**
 
 **This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.**
 
@@ -64,7 +64,7 @@ The PCB is single-sided and mostly uses 0603 components or comparable IC package
 
 The TTL-compatible `INT` output is an active high pin!
 
-**Here is a helpful image about the potentiometer settings (turning increases each parameter):**
+**Here is a helpful image about the potentiometer settings (turning increases each setting):**
 
 ![Potentiometer Controls](docs/controls.png)
 
@@ -82,7 +82,7 @@ One great example build has been done by [RD-Gamma](https://rd-gammaspectra.xyz)
 
 ## Example Results
 
-Here is a small collection of example results I got when measuring the count rate at the TTL output with my small 18 x 30 mm scintillator and a 6 mm MicroFC SiPM.
+Here is a small collection of example results I got when measuring the count rate at the TTL output with my small 18 x 30 mm NaI(Tl) scintillator and a 6 mm MicroFC SiPM.
 
 | Sample | Result Average [cps] |
 | --- | --- |
