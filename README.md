@@ -9,8 +9,8 @@
 Minimalistic board that allows you to quickly and easily utilize a silicon photomultiplier (SiPM) within your other projects. Supports a range of input voltages, has a digital (TTL) pulse output for the registered counts and a direct output for the SiPM pulses for easy expansion. Similar to the original [Open Gamma Detector](https://github.com/OpenGammaProject/Open-Gamma-Detector), but without any direct way to perform gamma spectroscopy.
 
 <p align="center">
-  <img alt="Photo of the detector board with mounted SiPM and crystal" title="Photo of the detector board with mounted SiPM and crystal" height="210px" src="docs/img1.jpg">
-  <img alt="Photo of the detector board with mounted SiPM and crystal" title="Photo of the detector board with mounted SiPM and crystal" height="210px" src="docs/img2.jpg">
+  <img alt="Photo of the detector board with mounted SiPM and crystal (Rev 3)" title="Photo of the detector board with mounted SiPM and crystal (Rev 3)" height="210px" src="docs/img1.jpg">
+  <img alt="Photo of the detector board with mounted SiPM and crystal (Rev 3)" title="Photo of the detector board with mounted SiPM and crystal (Rev 3)" height="210px" src="docs/img2.jpg">
 </p>
 
 All you need to build your own scintillation counter is this board, a scintillator and SiPM. The benefits of such a scintillation counter are that you can use it just like a Geiger counter, but it's much more sensitive, can be smaller, doesn't need 300+ Volts and you can also use it to do spectroscopy with some additional components. It mostly only registers gamma radiation though, so keep that in mind!
@@ -26,7 +26,7 @@ All you need to build your own scintillation counter is this board, a scintillat
 
 Here are some of the most important key facts:
 
-* Compact design: Total size 100 x 25 mm. 53 x 25 mm area for electronics and additional 47 x 25 mm to mount a small scintillator.
+* Compact design: Total size 100 x 25 mm. 51 x 25 mm area for electronics and additional 49 x 25 mm to mount a small scintillator.
 * Input voltage: 3.2 V - 5.5 V.
 * Low-voltage device: No HV needed like with a photomultiplier tube.
 * SiPM voltage range from 27.5 V to 33.8 V.
@@ -58,7 +58,7 @@ This project utilizes a silicon photomultiplier (short SiPM) which is way smalle
 * [Introduction to the SiliconPhotomultiplier (SiPM)](https://www.onsemi.com/pub/Collateral/AND9770-D.PDF)
 * [Biasing and Readout of ON Semiconductor SiPM Sensors](https://www.onsemi.com/pub/Collateral/AND9782-D.PDF)
 
-PCB size is 10 x 2.5 cm. If you don't need the additional space to mechanically mount the SiPM/scintillator assembly to the rest of the detector board, you can just cut it off at the white line and you're left with a much smaller detector (~5.3 x 2.5 cm).
+PCB size is 10 x 2.5 cm. If you don't need the additional space to mechanically mount the SiPM/scintillator assembly to the rest of the detector board, you can just cut it off at the white line and you're left with a much smaller detector (~5.1 x 2.5 cm).
 
 The PCB is single-sided and mostly uses 0603 components or comparable IC packages to make it possible to solder it by hand or buy it cheaply online and at the same time keep it as small as reasonable.
 
