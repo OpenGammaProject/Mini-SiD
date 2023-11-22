@@ -5,25 +5,27 @@
 
   Triggers on newly detected pulses and outputs events
   compatible with Gamma MCA: https://spectrum.nuclearphoenix.xyz/
-  Compatible with a (passive) buzzer for clicking.
+  Compatible with an external buzzer for clicking.
 
   2023, NuclearPhoenix. Open Gamma Project.
   https://github.com/OpenGammaProject/Mini-SiD
 
-  Hackaday:
+  Initial Hackaday log:
   https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
 
-
 */
+
 volatile uint32_t counts = 0;  // How many pulses have been registered
 
 void eventInt() {
   digitalWrite(LED_BUILTIN, HIGH);
   counts++;
-  // Use Buzzer to click at every count
-  tone(9, 3000, 3);  // Slows down the counter (much higher dead time)
+  // Use Buzzer to click for every count
+  // Slows down the counter (much higher dead time) a lot, especially the ancient UNO
+  tone(9, 3000, 3);
   digitalWrite(LED_BUILTIN, LOW);
 }
+
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -32,9 +34,10 @@ void setup() {
 
   attachInterrupt(digitalPinToInterrupt(2), eventInt, RISING);
 
-  Serial.begin(2000000);  // As fast as possible
+  Serial.begin(2000000);  // Basically as fast as possible
   Serial.println("Hello World!");
 }
+
 
 void loop() {
   unsigned long start = millis();
