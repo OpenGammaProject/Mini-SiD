@@ -60,7 +60,8 @@ This project utilizes a silicon photomultiplier (short SiPM) which is way smalle
 
 PCB size is 10 x 2.5 cm. If you don't need the additional space to mechanically mount the SiPM/scintillator assembly to the rest of the detector board, you can just cut it off at the white line and you're left with a much smaller detector (~5.1 x 2.5 cm).
 
-The PCB is single-sided and mostly uses 0603 components or comparable IC packages to make it possible to solder it by hand or buy it cheaply online and at the same time keep it as small as reasonable.
+The PCB has four layers with components only at the top side. It mostly uses 0603 components or comparable IC packages to make it possible to solder it by hand and at the same time keep it as small as reasonable.
+This combination makes for the best signal properties while still being fairly affordable with today's PCB manufacturing prices.
 
 The TTL-compatible `INT` output is an active high pin!
 
