@@ -1,14 +1,15 @@
 /*
 
    Mini SiD Example Sketch: Simple Scintillation Counter
-   Only works on the Raspberry Pi Pico and arduino-pico!
+   Designed to run on a Raspberry Pi Pico (!), because of the dual core performance.
+   Should successfully compile without any special settings.
 
    Triggers on newly detected pulses and displays average cps values.
 
    2023, NuclearPhoenix. Open Gamma Project.
    https://github.com/OpenGammaProject/Mini-SiD
 
-   Hackaday:
+   Initial Hackaday log:
    https://hackaday.io/project/188090-mini-sipm-driver-board/log/213532-simple-scintillation-counter-example
 
 */
@@ -25,7 +26,6 @@ const uint8_t SCREEN_ADDRESS = 0x3C;  // See datasheet for Address; 0x3D for 128
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 volatile uint32_t counts = 0;  // Accumulated counts
-
 
 void eventInt() {
   digitalWrite(LED, HIGH);  // Activity LED
@@ -46,7 +46,7 @@ void setup() {
 
 
 void setup1() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
     while (true) {  // Don't go further
