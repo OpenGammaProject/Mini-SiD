@@ -2,7 +2,7 @@
 
 # Mini SiPM Driver (SiD) Board
 
-**This is the latest hardware revision 4.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 3 and 4 hardware can be found [TODO](https://INSERT.LINK).**
+**This is the latest hardware revision 4.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 3 and 4 hardware can be found [here on Hackaday](https://hackaday.io/project/188090-mini-sipm-driver-board/log/225429-revision-4-is-finally-here).**
 
 **This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.**
 
