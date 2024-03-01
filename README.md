@@ -2,7 +2,7 @@
 
 # Mini SiPM Driver (SiD) Board
 
-**This is the latest hardware revision 4.0. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 3 and 4 hardware can be found [here on Hackaday](https://hackaday.io/project/188090-mini-sipm-driver-board/log/225429-revision-4-is-finally-here).**
+**This is the latest hardware revision 4.x. For older revisions, please have a look at the [other branches](https://github.com/OpenGammaProject/Mini-SiD/branches). A comparison between the revision 3 and 4 hardware can be found [here on Hackaday](https://hackaday.io/project/188090-mini-sipm-driver-board/log/225429-revision-4-is-finally-here).**
 
 **This project is on [Hackaday.io](https://hackaday.io/project/188090-mini-sipm-driver-board), where I also post project logs, progress updates and other announcements.**
 
@@ -26,15 +26,15 @@ All you need to build your own scintillation counter is this board, a scintillat
 
 Here are some of the most important key facts:
 
-* Compact design: Total size 100 x 25 mm. 51 x 25 mm area for electronics and additional 49 x 25 mm to mount a small scintillator.
-* Input voltage: 3.2 V - 5.5 V.
+* Compact design: Total size 100 x 25 mm. 50 x 25 mm area for electronics and additional 50 x 25 mm to mount a small scintillator.
+* Input voltage: 3.1 V - 5.5 V.
 * Low-voltage device: No HV needed like with a photomultiplier tube.
 * SiPM voltage range from 27.5 V to 33.8 V.
-* Low power consumption: <5 mA @ 5 V in standard operation.
+* Low power consumption: <4 mA @ 5 V in standard operation.
 * Adjustable gain for the SiPM pulses, also affects pulse decay time and therefore dead time.
 * TTL output for counting pulses or time-over-threshold applications.
 * Additional raw pulse output if you want to manipulate the signal or use it for spectroscopy.
-* Dead time only limited by the speed of the scintillator and the gain. Typically <10 µs.
+* Dead time only limited by the speed of the scintillator and the gain. Typically only a few microseconds.
 * Only needs an additional cheap microcontroller to, for example, build a simple scintillation counter.
 
 ## Working Principle
@@ -58,7 +58,7 @@ This project utilizes a silicon photomultiplier (short SiPM) which is way smalle
 * [Introduction to the SiliconPhotomultiplier (SiPM)](https://www.onsemi.com/pub/Collateral/AND9770-D.PDF)
 * [Biasing and Readout of ON Semiconductor SiPM Sensors](https://www.onsemi.com/pub/Collateral/AND9782-D.PDF)
 
-PCB size is 10 x 2.5 cm. If you don't need the additional space to mechanically mount the SiPM/scintillator assembly to the rest of the detector board, you can just cut it off at the white line and you're left with a much smaller detector (~5.1 x 2.5 cm).
+PCB size is 10 x 2.5 cm. If you don't need the additional space to mechanically mount the SiPM/scintillator assembly to the rest of the detector board, you can just cut it off at the white line and you're left with a much smaller detector (~5.0 x 2.5 cm).
 
 The PCB has four layers with components only at the top side. It mostly uses 0603 components or comparable IC packages to make it possible to solder it by hand and at the same time keep it as small as reasonable.
 This combination makes for the best signal properties while still being fairly affordable with today's PCB manufacturing prices.
