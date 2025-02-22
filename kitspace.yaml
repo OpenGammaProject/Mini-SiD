@@ -2,7 +2,7 @@ summary: Hardware for quick and easy prototyping with your silicon photomultipli
 
 site: https://nuclearphoenix.xyz # A site you would like to link to (include http:// or https://)
 
-color: red # for example
+color: black # for example
    # The solder resist color of the preview rendering. If left undefined "green" is used. Can be one of:
        # - green
        # - red
@@ -22,3 +22,7 @@ bom: hardware/BOM.csv
   # Check out https://github.com/kitspace/1clickBOM#readme for more details
 
 gerbers: hardware/Gerber_PCB/ # A path to your folder of gerbers in case it isn't `gerbers/`.
+
+eda:
+  type: easyeda # kicad | eagle | easyeda
+  pcb: hardware/PCB_Project_EasyEDA.json # | your/eagle.brd | your/easyeda.json
