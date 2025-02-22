@@ -17,7 +17,7 @@ All you need to build your own scintillation counter is this board, a scintillat
 
 ## How To Get One
 
-* For quick access and purchase of all the parts (PCB and BOM), you can use [Kitspace](https://kitspace.org/boards/github.com/OpenGammaProject/Mini-SiD/).
+* For quick access and purchase of all the parts (PCB and BOM), you can use [Kitspace](https://kitspace.org/boards/github.com/OpenGammaProject/Mini-SiD/) (non-affiliated).
 * Otherwise, use a PCB manufacturer and an electronics distributor of your choice and proceed on your own. All the files you'll need can be found in this repo.
 * If you don't want to deal with all of that, feel free to contact me. Just send me an e-mail if you want and we'll figure something out.
 
