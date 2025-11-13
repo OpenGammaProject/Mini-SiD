@@ -19,6 +19,9 @@ All you need to build your own scintillation counter is this board, a scintillat
 
 ## How To Get One
 
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway-1220.png)](https://www.pcbway.com/project/shareproject/Mini_SiPM_Driver_Mini_SiD_Board_110abc06.html)
+
+* You can check out the project on PCBWay (affiliate) and if you buy through their service, it supports the project a little, and doesn’t cost you anything extra.
 * For quick access and purchase of all the parts (PCB and BOM), you can use [Kitspace](https://kitspace.org/boards/github.com/OpenGammaProject/Mini-SiD/) (non-affiliated).
 * Otherwise, use a PCB manufacturer and an electronics distributor of your choice and proceed on your own. All the files you'll need can be found in this repo.
 * If you don't want to deal with all of that, feel free to contact me. Just send me an e-mail if you want and we'll figure something out.
