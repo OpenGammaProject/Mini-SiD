@@ -4,7 +4,7 @@
   Arduino Uno + Mini SiD + Buzzer
 
   Triggers on newly detected pulses and outputs events
-  compatible with Gamma MCA: https://spectrum.nuclearphoenix.xyz/
+  compatible with Gamma MCA: https://spectrum.nuclearphoenix.net/
   Compatible with an external buzzer for clicking.
 
   2023, NuclearPhoenix. Open Gamma Project.
